@@ -16,3 +16,9 @@
         <td>{{coffee.region}}</td>
     </tr>
 </table>
+
+<section>
+    <p *ngFor="let item of coffeeVarietyList">
+        Total {{item.variety}}:  {{item.total}}
+    </p>
+</section>
