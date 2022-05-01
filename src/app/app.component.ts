@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import "@fontsource/indie-flower";
 
 @Component({
   selector: 'app-root',

@@ -1,28 +1,35 @@
-<h1>El aroma mágico</h1>
-<hr>
-<img src="../../../assets/img/coffee.png" alt="coffee img">
-<hr>
-<table>
-    <thead>
-        <tr>
-            <td>#</td>
-            <td>Nombre</td>
-            <td>Tipo</td>
-            <td>Región</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let coffee of coffeeList">
-            <td>{{coffee.id}}</td>
-            <td>{{coffee.nombre}}</td>
-            <td>{{coffee.tipo}}</td>
-            <td>{{coffee.region}}</td>
-        </tr>
-    </tbody>
-</table>
-
-<section>
-    <p *ngFor="let item of coffeeVarietyList">
-        Total {{item.variety}}:  {{item.total}}
-    </p>
+<section class="body-text">
+    <div>
+        <p class="tittle">El aroma mágico</p>
+    </div>
+    <div>
+        <hr>
+        <img src="../../../assets/img/coffee.png" alt="coffee img">
+        <hr>
+    </div>
+    <div>
+        <table>
+            <thead class="head-table">
+                <tr>
+                    <td class="text-id">#</td>
+                    <td>Nombre</td>
+                    <td>Tipo</td>
+                    <td>Región</td>
+                </tr>
+            </thead>
+            <tbody class="body-table">
+                <tr *ngFor="let coffee of coffeeList">
+                    <td class="text-id">{{coffee.id}}</td>
+                    <td>{{coffee.nombre}}</td>
+                    <td>{{coffee.tipo}}</td>
+                    <td>{{coffee.region}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p class="results" *ngFor="let item of coffeeVarietyList">
+            Total {{item.variety}}:  {{item.total}}
+        </p>
+    </div>
 </section>

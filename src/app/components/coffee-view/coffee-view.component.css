@@ -1,0 +1,42 @@
+.tittle {
+    font-family: 'Indie Flower', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.body-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.text-id {
+    font-weight: bold;
+}
+
+.head-table {
+    font-weight: 700;
+    color: white;
+    background-color: #333A40;
+}
+
+
+.results {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+table {
+    margin-bottom: 10px;
+    min-width: 791px;
+    min-height: 49px;
+    border-collapse: collapse;
+}
+
