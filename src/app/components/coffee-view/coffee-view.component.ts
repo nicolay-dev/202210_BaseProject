@@ -11,7 +11,6 @@ export class CoffeeViewComponent implements OnInit {
 
   coffeeList!: Array<Coffee>;
   coffeeVarietyList!: Set<{variety: string, total: number}>;
-  // coffeeVarietyList!: Set<string>;
 
   constructor(private apiService: ApiService) { }
 

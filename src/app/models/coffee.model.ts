@@ -5,5 +5,5 @@ export class Coffee {
     'region': string;
     'sabor': string;
     'altura': number;
-    'imagen': URL;
+    'imagen'?: URL;
 }
